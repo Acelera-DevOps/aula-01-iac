@@ -4,8 +4,8 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "meu_bucket" {
-  bucket = "aula-eriktonon-0202"
-  acl    = "public-read"
+  bucket = "aula-eriktonon222"
+  acl    = "private"
 
   versioning {
     enabled = true
