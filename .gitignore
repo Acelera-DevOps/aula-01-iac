@@ -1,0 +1,26 @@
+# Diretórios locais do Terraform
+**/.terraform/*
+
+# Arquivos de estado do Terraform (nunca versionar em repositórios Git!)
+*.tfstate
+*.tfstate.*
+
+# Logs de crash
+crash.log
+crash.*.log
+
+# Arquivos de variáveis sensíveis locais
+*.tfvars
+*.tfvars.json
+!example.tfvars
+!production.tfvars
+
+# Arquivos de override locais
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Arquivos de configuração da CLI
+.terraformrc
+terraform.rc
